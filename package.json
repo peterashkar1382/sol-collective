@@ -1,0 +1,30 @@
+{
+  "name": "sol-collective",
+  "version": "0.1.0",
+  "description": "Multi-source event tracking and management system for environmental, space, and disaster events",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "events",
+    "nasa",
+    "noaa",
+    "esa",
+    "monitoring",
+    "tracking"
+  ],
+  "author": "peterashkar1382",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "dependencies": {}
+}
